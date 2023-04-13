@@ -8,20 +8,23 @@ body {
 	font-style: normal;
 }
 
-h4 {
+h3 {
 	font-size: 1rem;
 }
 
 .top-header {
 	background-color: white;
-	position: sticky;
-	top:0;
-	z-index: 1000;
 	display: flex;
 	justify-content: space-between;
 	padding-inline: 100px;
 	padding-block: 30px;
 	align-items: center;
+}
+
+header {
+	position: sticky;
+	top: 0;
+    z-index: 1000;
 }
 
 .top-header .name {
@@ -167,7 +170,8 @@ nav a:hover {
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
-
+	font-size: 40px;
+	line-height: 48px;
 }
 
 .quote__author {
@@ -236,7 +240,10 @@ nav a:hover {
 
 .form-container {
 	flex : 2;
+}
 
+.form-container h2 {
+	font-size: 1.75em;
 }
 
 form {

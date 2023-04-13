@@ -12,20 +12,12 @@
       rel="stylesheet"
     />
     <meta charset="UTF-8" />
-    <script src="./assets/bootstrap/bootstrap.bundle.js"></script>
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.min.js"
-      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-      crossorigin="anonymous"
-    ></script>
-    <script src="./assets/maugallery.js"></script>
-    <script src="./assets/scripts.js"></script>
     <title>Nina Carducci - Photographe</title>
   </head>
   <body>
     <header>
       <div class="top-header">
-        <h3 class="name">Nina Carducci</h3>
+        <h1 class="name">Nina Carducci</h1>
         <nav>
           <ul>
             <li><a href="#about">À propos</a></li>
@@ -86,6 +78,7 @@
                 src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-1440.webp"
                 class="d-block w-100"
                 alt="Foule de concert"
+                loading="lazy"
               />
             </div>
             <div class="carousel-item">
@@ -93,6 +86,7 @@
                 src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.webp"
                 class="d-block w-100"
                 alt="Photo de mariage"
+                loading="lazy"
               />
             </div>
           </div>
@@ -124,13 +118,13 @@
           />
         </div>
         <div id="about-me">
-          <h3 class="about-me__title">À propos de moi</h3>
-          <h4 class="about-me__introduction">
+          <h2 class="about-me__title">À propos de moi</h2>
+          <h3 class="about-me__introduction">
             Devenir photographe était pour moi une évidence. Comme si j’y étais
             prédestiné. Saisir un moment, une émotion, une situation, un
             endroit, une lumière et les rendre immortels, voilà ce qui me fait
             vibrer.
-          </h4>
+          </h3>
           <p>
             Nous passons notre vie à chercher le bonheur, et lorsque nous y
             touchons, nous n’avons qu’une envie : le figer au travers de
@@ -145,7 +139,7 @@
         </div>
       </div>
       <div id="gallery">
-        <h3 class="title">Portfolio</h3>
+        <h2 class="title">Portfolio</h2>
         <div class="container py-3">
           <div class="gallery" style="display: none">
             <img
@@ -175,19 +169,19 @@
             <img
               data-gallery-tag="Portrait"
               class="gallery-item"
-              src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.webp"
+              src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash-550.webp"
               alt="Portrait d'homme"
             />
             <img
               data-gallery-tag="Mariages"
               class="gallery-item"
-              src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.webp"
+              src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash-550.webp"
               alt="Photo de mariage 2"
             />
             <img
               data-gallery-tag="Portrait"
               class="gallery-item"
-              src="./assets/images/gallery/portraits/nino-van-prattenburg-443cl1uR_8-unsplash.webp"
+              src="./assets/images/gallery/portraits/nino-van-prattenburg-443cl1uR_8-unsplash-550.webp"
               alt="Portrait de femme"
             />
             <img
@@ -207,20 +201,20 @@
         <div class="quote">
           <figure>
             <blockquote>
-              <h1 class="quote__text">
+              <p class="quote__text">
                 Un portrait n’est pas une ressemblance. Dès lors qu’une émotion
                 ou qu’un fait est traduit en photo, il cesse d’être un fait pour
                 devenir une opinion. L’inexactitude n’existe pas en
                 photographie. Toutes les photos sont exactes. Aucune d’elles
                 n’est la vérité.
-              </h1>
+              </p>
             </blockquote>
             <figcaption class="quote__author">- Richard Avedon</figcaption>
           </figure>
         </div>
       </div>
       <div id="services">
-        <h3 class="title">Mes services</h3>
+        <h2 class="title">Mes services</h2>
         <div class="container">
           <div class="service">
             <div class="service__description">
@@ -280,7 +274,7 @@
       <div id="contact">
         <div class="container">
           <div class="form-container">
-            <h3>Une question ? Une demande de devis ?</h3>
+            <h2>Une question ? Une demande de devis ?</h2>
             <p>
               N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24
               heures
@@ -307,5 +301,14 @@
       </div>
     </main>
     <footer></footer>
+    <script defer src="./assets/bootstrap/bootstrap.bundle.js"></script>
+    <script
+      defer
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="./assets/maugallery.js"></script>
+    <script defer src="./assets/scripts.js"></script>
   </body>
 </html>
