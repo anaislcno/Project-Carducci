@@ -125,6 +125,7 @@ nav a:hover {
 
 .gallery .nav {
 	justify-content: center;
+	gap: 20px;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
@@ -135,6 +136,7 @@ nav a:hover {
 
 .nav-pills .nav-link {
 	color: #000;
+	cursor: pointer;
 }
 
 .item-column {
@@ -368,7 +370,7 @@ input[type="submit"] {
 	}
 	.top-header nav, .top-header nav ul {
 		width: 100%;
-		padding: 0 0 0 0;
+		padding: 0;
 	}
 	.top-header nav li {
 		flex: 1;
