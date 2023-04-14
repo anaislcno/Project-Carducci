@@ -14,7 +14,7 @@ img {
 }
 
 * {
-	font-family: 'Inter';
+	font-family: 'Inter', Arial, Helvetica, sans-serif;
 	font-style: normal;
 }
 
@@ -107,7 +107,7 @@ nav a:hover {
 }
 
 .about-me__introduction {
-	font-family: 'Spectral';
+	font-family: 'Spectral', Arial, Helvetica, sans-serif;
 	font-weight: 800;
 	font-style: italic;
 	width: 60%;
@@ -171,7 +171,7 @@ nav a:hover {
 }
 
 .quote {
-	font-family: 'Spectral';
+	font-family: 'Spectral', Arial, Helvetica, sans-serif;
 	font-style: italic;
 	width: 70%;
 	margin: auto;
@@ -179,7 +179,7 @@ nav a:hover {
 }
 
 .quote__text {
-	font-family: Spectral;
+	font-family: 'Spectral', Arial, Helvetica, sans-serif;
 	font-style: italic;
 	font-weight: 300;
 	font-size: 40px;
@@ -187,7 +187,7 @@ nav a:hover {
 }
 
 .quote__author {
-	font-family: Spectral;
+	font-family: 'Spectral', Arial, Helvetica, sans-serif;
 	font-weight: 800;
 	font-size: 22px;
 }
