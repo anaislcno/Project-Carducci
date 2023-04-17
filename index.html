@@ -17,9 +17,11 @@
     />
     <title>Nina Carducci - Photographie</title>
     <!-- Schema.org meta for Google+ -->
-    <meta itemprop="name" content="Nina Carducci - Photographie" />
-    <meta itemprop="description" content="" />
-    <meta itemprop="image" content="" />
+    <div itemscope itemtype="https://www.schema.org/Photograph">
+      <meta itemprop="name" content="Nina Carducci - Photographie" />
+      <meta itemprop="description" content="" />
+      <meta itemprop="image" content="" />
+    </div>
     <!-- Twitter summary card with large image must be at least 280x150px -->
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@ninacarducci" />
@@ -37,7 +39,7 @@
   <body>
     <header>
       <div class="top-header">
-        <h1 class="name">Nina Carducci</h1>
+        <h1 itemprop="name" class="name">Nina Carducci</h1>
         <nav>
           <ul>
             <li><a href="#about">À propos</a></li>
@@ -134,6 +136,7 @@
         <div id="about">
           <div class="picture left">
             <img
+              itemprop="image"
               src="./assets/images/nina-400.webp"
               alt="Autoportrait Nina Carducci"
               loading="lazy"
