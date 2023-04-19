@@ -134,7 +134,7 @@ var a;
       a.append(
         `<div class="modal fade" id="${
           t || "galleryLightbox"
-        }" tabindex="-1" role="dialog" aria-labelledby="lightboxModalLabel" aria-hidden="true">\n                <div class="modal-dialog" role="document">\n                    <div class="modal-content">\n                        <div class="modal-body">\n                            ${
+        }" tabindex="-1" role="dialog" aria-hidden="true">\n                <div class="modal-dialog" role="document">\n                    <div class="modal-content">\n                        <div class="modal-body">\n                            ${
           e
             ? '<div class="mg-prev" style="cursor:pointer;position:absolute;top:50%;left:-15px;background:white;"><</div>'
             : '<span style="display:none;" />'
