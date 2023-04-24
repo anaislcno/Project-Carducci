@@ -78,9 +78,11 @@ var a;
     responsiveImageItem(a) {
       "IMG" === a.prop("tagName") && a.addClass("img-fluid");
     },
-    openLightBox(t, e) {
-      a(`#${e}`).find(".lightboxImage").attr("src", t.attr("src")),
-        a(`#${e}`).modal("toggle");
+    openLightBox(element, lightboxId) {
+      $(`#${lightboxId}`)
+        .find(".lightboxImage")
+        .attr("src", element.attr("src"));
+      $(`#${lightboxId}`).modal("toggle");
     },
     prevImage() {
       let t = null;
